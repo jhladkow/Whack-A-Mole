@@ -1,0 +1,43 @@
+<!-- Assignment #1 - Whack-A-Mole Game - Joe Hladkowicz -->
+
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset=utf-8>
+		<title>Whack-A-Mole</title>
+		<link rel="stylesheet" href="css/molegame.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Assignment #1 - Joe Hladkowicz</h1>
+		</header>
+		<section id="game-window">
+			<div id="objective">Destroy all 20 moles in this final epic never-to-be-forgotten<br>60-second battle to save what's left of your lawn!<br>Press play to begin!</br></br></div>
+			<div id="scoreboard">
+				<div class="level">LEVEL : <span id="level">1</span></div>
+				<div class="time">TIME : <span id="time">60</span></div>
+				<div class="score">SCORE : <span id="score">0</span></div>
+				</div>
+			<div id="game">
+				<div id="mole"></div>
+				<div id="menu">
+					<div id="button"></div>
+				</div>
+			</div>		
+		</section>
+		<audio id="background">
+			<source src="media/background.mp3" />
+		</audio>
+		<audio id="hitMole">
+			<source src="media/hitmole.mp3" />
+		</audio>
+		<audio id="missMole">
+			<source src="media/miss.mp3" />
+		</audio>
+		<script src="js/jquery-2.0.0.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/molegame.js"></script>
+		<footer>This game has been tested in Google Chrome<br></br>Background music: M83 - Moonchild<br>All sound bites taken from http://www.freesfx.co.uk/<br> Mole artwork taken from http://www.vickiwenderlich.com/2011/05/game-pack-mole-whack/</br></br>
+		</footer>
+	</body>
+</html>

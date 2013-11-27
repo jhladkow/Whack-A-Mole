@@ -1,0 +1,71 @@
+#game {
+	background: url(../images/lawnbg.jpg);
+	width: 800px;
+	height: 549px;
+	margin: 0 auto;
+	border: 5px solid #666;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	overflow: hidden;
+	position: relative;
+	cursor: url('../images/use79.cur'), default;
+}
+
+#scoreboard {
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+}
+
+#objective {
+	font-family: Arial, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+body {
+	background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+
+#mole {
+	width: 90px;
+	height: 100px;
+	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+	overflow: hidden;
+	position: absolute;
+	display: -webkit-box;
+}
+
+.normMole {
+	background: url(../images/mole_laugh1.png);
+}
+
+.hitMole {
+	background: url(../images/mole_thump4.png);
+}
+
+#menu {
+	background: url(../images/menubg.jpg);
+	width: 800px;
+	height: 550px;
+	margin: 0 auto;
+	border: 1px solid #666;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	overflow: hidden;
+}
+
+#button {
+	background: url("../images/button.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 77px;
+    overflow: hidden;
+    width: 175px;
+}
